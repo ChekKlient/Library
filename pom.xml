@@ -52,6 +52,8 @@
                 <version>2.2</version>
                 <configuration>
                     <url>http://localhost:8090/manager/text</url>
+		<server>TomcatServer</server>
+		<path>/library</path>
                 </configuration>
             </plugin>            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
